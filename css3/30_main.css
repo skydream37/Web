@@ -1,0 +1,37 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+body{
+	background: maroon;
+}
+
+#load{
+	/* border:1px solid #fff; */
+	margin:150px auto;
+	text-align:center;
+}
+#load li{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	background:#fff;
+	
+	display:inline-block;
+}
+
+@keyframes slide{	
+	from{transform: scale(0,0);}
+	to{transform: scale(1,1);}
+}
+
+#load li:nth-child(1){animation: slide 1s   0s 3 alternate both;}
+#load li:nth-child(2){animation: slide 1s 0.2s 3 alternate both;}
+#load li:nth-child(3){animation: slide 1s 0.4s 3 alternate both;}
+#load li:nth-child(4){animation: slide 1s 0.6s 3 alternate both;}
+#load li:nth-child(5){animation: slide 1s 0.8s 3 alternate both;}
+
+
+
+

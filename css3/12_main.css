@@ -1,0 +1,17 @@
+#box{
+	/* border:1px solid red; */
+	font:bold 40px Tahoma;
+	width:250px;
+	height:120px;
+	margin:100px auto;	
+	text-align:center;
+	line-height:120px;
+	border-radius:10px;
+	text-shadow:red 0px 0px 5px;
+	color:#fff;
+	
+	/* background-image:-webkit-radial-gradient(角度deg,形狀,起始顏色 位置,結束顏色 位置); */
+	/* background:-webkit-linear-gradient(0deg,yellow 30%,red 50%,green 80%); */
+	/* background:-webkit-radial-gradient(left,ellipse,red,black); */
+	background:-webkit-repeating-radial-gradient(center,ellipse,red 10%,black 20%);
+}

@@ -1,0 +1,58 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+#calendar{
+	/* border:1px solid red; */
+	/* height:100px; */
+	width:224px;
+	margin:100px auto;
+}
+/* #week li,#day li{
+	
+} */
+
+ul li{
+	border:1px solid #aaa;
+	width:30px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	
+	float:left;
+}
+#day li{
+	background:#f37520;
+	color:#fff;
+}
+#day li:empty{
+	background:transparent;
+}
+#week li:nth-child(7n),#week li:nth-child(7n+1){
+	color:red;
+}
+#day li:nth-child(7n),#day li:nth-child(7n+1){
+	color:blue;
+}
+
+/* a,b為正整數
+an+b | -an+b | an-b
+n+b   |  n-b
+a | an | odd | even  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+*{
+	font:bold 100% Arial;
+}
+div{
+	border:solid 1px #469847;
+	border:bold;
+	width:286px;
+	height:179px;
+
+	position:absolute;
+	top:50px;
+	left:50px;
+	padding:22px 6px;
+	background-color:#fff;
+	font:10.9px Verdana;
+	z-index:5;
+}
+img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+}

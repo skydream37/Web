@@ -1,0 +1,17 @@
+#box{	
+	width:250px;
+	height:250px;
+	background:#ccc;
+	
+	
+	transition:width 1s 0s,
+			   height 1s 1s,
+			   background 1s 2s;
+	
+	
+}
+#box:hover{
+	width:450px;
+	height:450px;
+	background:steelblue;
+}

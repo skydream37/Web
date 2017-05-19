@@ -1,0 +1,16 @@
+body{
+	background: #b52100;
+	color:#ccc;
+}
+#box{	
+	column-count: 6;
+	column-rule: 2px dotted #ccc;
+	column-gap: 20px;
+}
+h1,h3,span,hr,p:last-child{
+	column-span:all;
+}
+p:last-child{
+	text-align:center;
+	margin-top:20px;
+}

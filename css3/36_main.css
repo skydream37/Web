@@ -1,0 +1,29 @@
+/* 建立規則 */
+
+@keyframes slide{
+	from{
+		margin-left:0%;
+	}
+	to{
+		margin-left:82%;
+	}
+}
+
+#image{
+	width:300px;
+	
+	animation:slide 1s infinite alternate;
+	animation-play-state: paused;
+}
+p{
+	text-align:center;
+}
+button{
+	font-size:x-large;
+}
+
+
+
+
+
+

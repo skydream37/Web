@@ -1,0 +1,23 @@
+/* 
+*{
+	margin:0px;
+} 
+*/
+#box{
+	width:200px;
+	border:1px solid red;
+}
+p[name="silvia"]{
+	background:#ccc;
+}
+
+
+
+
+
+/* buttons */
+input[type="submit"],input[type="reset"],input[type="button"],button{
+	width:90px;
+	text-transform:capitalize;
+	color:steelblue;
+}

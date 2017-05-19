@@ -1,0 +1,10 @@
+{
+    // Enable word based suggestions.
+    "editor.wordBasedSuggestions": false,
+
+    "files.autoSave": "afterDelay",
+    // Changes systems default explorer to a specific one. Based on https://github.com/pwnall/node-open
+    "view-in-browser.customBrowser": "chrome",
+    "editor.fontSize": 18,
+    "workbench.iconTheme": "vscode-icons"
+}

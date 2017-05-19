@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+	<head> <!-- 跟瀏覽器溝通的訊息 p.11 -->
+		<meta charset="UTF-8"> <!-- 設定編碼方式 p.12 -->
+		<link rel="stylesheet" href=""> <!-- 關連檔案位址 p.12-->
+		
+		<style>
+			label{
+					text-transform:capitalize;  <!-- capitalize開頭大寫  -->
+					width:100px;
+					float:left; <!-- 向左對齊 -->
+			}
+		</style> <!-- 對所有的label做style(style為css之呼叫方式) -->
+		<script src=""></script> 
+		<title>HTML5 NEW</title> <!-- 標題名稱 -->
+	</head>
+	<body>	<!-- 實際上使用者看得到的地方 9.11-->	
+		<form action="" method=""> <!-- 表格，用於製作問卷等需要傳送資料出去的地方 p.22-->
+			<p> <!-- 分段 p.16 -->
+				<label>name: </label>  <!-- label標籤，方便對label做調整，在head進行設定 -->
+				<input type="text" name="name" required>  <!-- 表單 有(type(欄位形態(用途),name(欄位名稱(傳送資料時的名字),value(按鈕上顯示的名稱))等屬性 課本23頁 有強化型態的表單 p.22-->
+			</p>
+			<p>
+				<label>search: </label>
+				<input type="search" name="search"> <!-- 可加入必選欄目(required) p.24-->
+			</p>
+			<p>
+				<label>email: </label>
+				<input type="email" name="email"> 
+			</p>			
+			<p>
+				<label>number: </label>
+				<input type="number" name="number" min="1" max="10000">  <!-- 可以加上min max step p.24--> 
+			</p>			
+			<p>
+				<label>date: </label>
+				<input type="date" name="date" >
+			</p>						
+			<p>
+				<label>week: </label>
+				<input type="week" name="week">
+			</p>							
+			<p>
+				<label>time: </label>
+				<input type="time" name="time">
+			</p>									
+			<p>
+				<label>datetime-local: </label>
+				<input type="datetime-local" name="datetime-local">
+			</p>							
+			<p>
+				<label>color: </label>
+				<input type="color" name="color">
+			</p>	
+			<p>
+				<label>file: </label>
+				<input type="file" name="file"> <!-- 選擇上傳檔案 會回傳檔案名稱 p.23-->
+			</p>	
+			<p>
+				<label>image: </label>
+				<input type="image" name="image" src="..\images\limes.jpg">  <!-- 會送出表單內容，跟點擊在圖片上的位置 p23-->
+			</p>				
+			<p>
+				<label>file: </label>
+				<input type="file" name="file" multiple>
+				<input type="submit" value="Upload" disabled>
+			</p>
+
+			<hr> <!-- 水平線 有(width(左右長度(寬度)),size(上下長度(寬度)),color(水平線顏色),align(線的位置(左中右))等屬性 p.16-->
+			<input type="submit" value="傳送出去"> <!-- 表單傳送按鈕 -->
+		</form>
+	</body>	
+</html>

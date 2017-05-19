@@ -1,0 +1,25 @@
+*{
+	font:bold 100% Arial;
+}
+div{
+	border:solid 1px #469847;
+	width:282px;
+	height:183px;
+
+	position:absolute;
+	top:50px;
+	left:50px;
+	
+	padding:20px 8px;
+	
+	background-color:#fff;
+	font:12px tahoma;
+	line-height:17px;
+	z-index:5;
+}
+img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+}

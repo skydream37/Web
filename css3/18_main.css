@@ -1,0 +1,32 @@
+/* 建立規則 */
+@font-face{
+	font-family:facebook;
+	src:url(fonts/facebook-letter-faces.ttf);
+}
+#box{
+	border:1px solid #3D579D;
+	font:normal 40px facebook,Tahoma,Arial,Verdana;
+	width:250px;
+	height:120px;
+	margin:100px auto;	
+	text-align:center;
+	line-height:120px;
+	border-radius:10px;
+	/* text-shadow:red 0px 0px 5px; */
+	color:#3D579D;
+	
+	
+	transition:transform 2s 1s,width 3s,height 3s,line-height 3s,background 2s,color 2s,font-size 2s;
+	
+	
+}
+#box:hover{
+	
+	transform:rotate(360deg);
+	width:450px;
+	height:200px;
+	line-height:200px;	
+	background:#3D579D;
+	color:#fff;
+	font-size:55px;
+}

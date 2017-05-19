@@ -1,0 +1,14 @@
+div{
+	font:bold 90px Comic Sans MS;
+	color:green;
+}
+.myClass{
+	text-decoration:underline;
+	color:red;
+}
+#myId{
+	background:#ccc;
+	color:blue;
+}
+
+

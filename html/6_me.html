@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="">
+		<style>
+			table tr:nth-child(odd){
+				background:#ccc;
+			} <!-- 指定表格單數列的背景顏色(第幾個子項目) p.36-->
+		</style>
+		<script src=""></script>
+		<title>本站簡介</title>
+	</head>
+	<body>
+		<iframe src="myWeb.html" width="100%" height="85" scrolling="no" frameborder="0">
+		</iframe>
+		
+		<iframe src="http://maps.google.com?output=embed&q=資策會中壢國際人才發展中心" width="600" height="600" frameborder="0">
+		</iframe>
+		
+		<iframe srcdoc="<h1>inline frame</h1>">
+		</iframe>
+		
+		
+		
+		<hr>
+		<table border="1" width="50%" height="350" cellspacing="5" cellpadding="5">  
+			<tr bgcolor="#ccc">
+				<th width="14.2857%">Mon</th>
+				<th width="14.2857%">Tue</th>
+				<th width="14.2857%">Wed</th>
+				<th width="14.2857%">Thu</th>
+				<th width="14.2857%">Fri</th>
+				<th width="14.2857%">Sat</th>
+				<th width="14.2857%">Sun</th>
+			</tr>
+			<tr>
+				<td colspan="2"></td>
+				<!-- <td></td> -->
+				<td align="right" valign="top">1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>7</td>
+				<td>8</td>
+				<td>9</td>
+				<td>10</td>
+				<td>11</td>
+				<td>12</td>
+			</tr>
+			<tr>
+				<td>13</td>
+				<td>14</td>
+				<td>15</td>
+				<td>16</td>
+				<td>17</td>
+				<td>18</td>
+				<td>19</td>
+			</tr>
+			<tr>
+				<td>20</td>
+				<td>21</td>
+				<td>22</td>
+				<td>23</td>
+				<td>24</td>
+				<td>25</td>
+				<td>26</td>
+			</tr>
+			<tr>
+				<td>27</td>
+				<td>28</td>
+				<td>29</td>
+				<td>30</td>
+				<td>31</td>
+				<td rowspan="3" colspan="2"></td>
+				<!-- <td></td> -->
+			</tr>
+			<tr>
+				<td></td>
+				<td rowspan="2"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<!-- <td></td>
+				<td></td> -->
+			</tr>
+			<tr>
+				<td></td>
+				<!-- <td></td> -->
+				<td></td>
+				<td></td>
+				<td></td>
+				<!-- <td></td>
+				<td></td> -->
+			</tr>
+			
+		</table>
+		
+		<table border="0" width="30%" cellspacing="5"> <!-- 拿掉邊框p.20 -->
+			<tr bgcolor="#ccc">
+				<td width="25%"></td>
+				<td width="25%" align="center">收入</td>
+				<td width="25%" align="center">支出</td>
+				<td width="25%" align="center">備註</td>
+				
+			</tr>
+			<tr bgcolor="#ccc">
+				<td>January</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr bgcolor="#ccc">
+				<td>February</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr bgcolor="#ccc">
+				<td>March</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		
+		<hr>
+		<!-- <a href="myWeb.html#bus">我是首頁--搭公車</a> -->
+		<h2>unordered list</h2>
+		<ul type="circle">   <!-- ul(unorder list)沒編號 ol(order list)有編號 p.18 -->
+			<li>AAA</li>
+			<li>BBB</li>
+			<li>CCC</li>
+			<li>DDD</li>
+			<li>EEE</li>
+		</ul>
+		
+		<h2>ordered list</h2>
+		<ol type="a" start="6">
+			<li>AAA</li>
+			<li>BBB</li>
+			<li>CCC</li>
+			<li>DDD</li>
+			<li>EEE</li>
+		</ol>
+		
+		<h2>definition list</h2>
+		<dl> <!-- dl沒有圖也沒有文字排序的表單 -->
+			<dt>yellow</dt> <!-- dt用來容納名詞 -->
+			<dt>golde</dt>
+			<dd>黃色的</dd> <!--  dd用來容納定義 -->
+			<dd>黃皮膚的；黃色人種的</dd>
+			<dd>膽小的；卑鄙的</dd>
+			<dd>猜疑的</dd>
+		</dl>
+		<h2>nested list</h2>
+		<ul>
+			<li>AAA</li>
+			<li>BBB</li>
+			<li>CCC
+				<ul>
+					<li>xxx</li>
+					<li>yyy</li>
+					<li>zzz</li>
+				</ul>
+			</li>
+			<li>DDD</li>
+			<li>EEE</li>
+		</ul>
+		<ol type="A">  <!-- 由形式為大寫字母的方式排序 P.19 -->
+			<li>AAA</li>
+			<li>BBB</li>
+			<li>CCC
+				<ol type="a">
+					<li>xxx</li>
+					<li>yyy</li>
+					<li>zzz</li>
+				</ol>
+			</li>
+			<li>DDD</li>
+			<li>EEE</li>
+		</ol>
+	</body>	
+</html>

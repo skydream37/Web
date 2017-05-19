@@ -1,0 +1,38 @@
+*{
+	font:bold 100% Arial;
+}
+label{
+	text-transform:capitalize;
+	width:200px;
+	float:left;
+	font:bold 100% Arial;
+	}
+.bor{
+	border-style:dotted;
+	border-color:#cee8f0;
+	}
+.listh1{
+	color:#040c97;
+	font:bold 100% Arial;
+
+}
+p{
+	margin:5px;
+}
+hi{
+		font-size:12px
+}
+input{
+	background-color:#e3f2f7;
+	border-top:solid #000;
+	border-left:solid #000;
+	border-bottom:solid #8889d6;
+	border-right:solid #8889d6;
+	border-width:1px;
+	font-size:12px
+	}
+#sign{
+	border-width:1px;
+	color:blue;
+	border-width:1px;
+}

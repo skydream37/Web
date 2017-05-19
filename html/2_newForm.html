@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="">
+		
+		<style>
+			label{
+				text-transform:capitalize;
+				width:100px;
+				float:left;
+			}
+		</style>		
+		
+		<script src=""></script>
+		<title>HTML5--新表單</title>
+	</head>
+	<body>		
+		<form action="" method="">
+			<p>
+				<label>image: </label>
+				<input type="image" name="image" src="../images/limes.jpg">
+			</p>
+			<p>
+				<label>your name: </label>
+				<input type="text" name="name">
+			</p>
+			<p>
+				<label>the search: </label>
+				<input type="search" name="search" placeholder="Search..."> <!-- 加上提示字 p.22-->
+			</p>
+			<p>
+				<label>email: </label>
+				<input type="email" name="email" placeholder="example@icloud.com"> 
+			</p>
+			<p>
+				<label>number: </label>
+				<input type="number" name="number" min="0" step="5"> <!-- 每個選項跳動值 p.24-->
+			</p>
+			<p>
+				<label>date: </label>
+				<input type="date" name="date">
+			</p>
+			<p>
+				<label>week: </label>
+				<input type="week" name="week">
+			</p>
+			<p>
+				<label>color: </label>
+				<input type="color" name="color">
+			</p>
+			<p>
+				<label>file: </label>
+				<input type="file" name="file" multiple>
+				<input type="submit" value="Upload" disabled>
+			</p>
+			
+			<hr>
+			<input type="submit" value="傳送出去">
+		</form>
+	</body>	
+</html>
